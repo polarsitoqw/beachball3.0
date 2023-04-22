@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#beach {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('beach.jpg'); /* Cambia 'beach.jpg' por la imagen de tu elección */
+    background-size: cover;
+    position: relative;
+  }
+  
+#ball {
+    width: 50px;
+    height: 50px;
+    background-image: url('ball.png'); /* Cambia 'ball.png' por la imagen de tu elección */
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  #score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+}
+
+#score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column; /* Cambia la dirección del flex a columna */
+}
+
+/* Estilos para la etiqueta "Puntaje" arriba del score */
+#score-label {
+  font-family: 'Arial', sans-serif; /* Fuente Arial o sans-serif */
+  font-size: 20px; /* Tamaño de letra */
+  color: #8b4513; /* Color de letra marrón */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para el marcador (score) */
+#score {
+  border: 2px solid #ffcccb; /* Borde rojo claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  font-family: 'Arial', sans-serif; /* Fuente Arial o sans-serif */
+  font-size: 36px; /* Tamaño de letra */
+  color: #8b4513; /* Color de letra marrón */
+  background-color: #faf0e6; /* Color de fondo de arena */
+  text-align: center; /* Alineación centrada del texto */
+  width: 200px; /* Ancho del marcador */
+}
+
+/* Estilos para la descripción de score */
+#score-description {
+  font-family: 'Arial', sans-serif; /* Fuente Arial o sans-serif */
+  font-size: 16px; /* Tamaño de letra */
+  color: #8b4513; /* Color de letra marrón */
+  font-style: italic; /* Estilo de letra en cursiva */
+  margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para los bordes del score */
+#score-container, #score, #score-description {
+  border: 1px solid #8b4513; /* Bordes marrones */
+}

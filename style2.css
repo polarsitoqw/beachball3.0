@@ -1,0 +1,60 @@
+/* Estilos del index */
+body {
+  background-image: url('beach.jpg'); /* Ruta de la foto de fondo */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  
+ 
+justify-content: center;
+  align-items: center;
+  margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+}
+
+.game-container {
+  text-align: center;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holder .game-name {
+  font-size: 48px; /* Tamaño de la fuente del título */
+  color: #ffffff; /* Color del texto */
+  margin-top: 0;
+}
+
+.pelota {
+  
+ 
+width: 150px; /* Ancho de la imagen de la pelota */
+  height: 150px; /* Alto de la imagen de la pelota */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.game-button {
+  margin-top: 30px; /* Margen superior del botón de juego */
+  
+ 
+background-color: #ff0000; /* Color de fondo del botón de juego */
+  color: #ffffff; /* Color del texto del botón de juego */
+  
+ 
+padding: 12px 24px; /* Espaciado interno del botón de juego */
+  font-size: 24px; /* Tamaño de la fuente del botón de juego */
+  cursor: pointer; /* Cambiar el cursor a una mano al pasar sobre el botón de juego */
+  border: none; /* Quitar el borde del botón de juego */
+  border-radius: 5px; /* Agregar bordes redondeados al botón de juego */
+  
+ 
+transition: background-color 0.3s ease; /* Agregar transición suave al cambio de color de fondo */
+}
+
+.game-button:hover {
+  background-color: #cc0000; /* Color de fondo del botón de juego al pasar el cursor sobre él */
+}
